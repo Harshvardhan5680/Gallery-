@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="blob:https://web.whatsapp.com/ff58be51-7c50-4986-9c79-f36145a360e2viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img2.jpg">
+</head>
+
+<body>
+
+    <div class="gallery-container">
+        <h1>My Photo Gallery</h1>
+        <div class="gallery">
+            <!-- Repeat this block for 20 images -->
+            <div class="photo">
+                <img src="img1.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img2.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img3.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img4.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img5.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img6.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img7.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img8.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img9.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img10.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img11.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img12.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img14.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img13.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img15.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            <div class="photo">
+                <img src="img16.jpg" alt="Gallery Image" onclick="openLightbox(this)">
+            </div>
+            
+                
+            
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
